@@ -6,23 +6,20 @@ body {
 
 
 #wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width: 1440px;
-    padding-right: 15px;
-    height: 530px;
     background-color: #1f2937;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    height: 550px;
 }
 .header{
     font-family: Roboto, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 205px;
+    padding-left: 375px;
+    padding-right: 625px;
     flex-wrap: wrap;
-    
 }
 
 .hero{
@@ -30,6 +27,7 @@ body {
     color: #F9FAF8;
     font-weight: 800;
     margin-bottom: 100px;
+    margin-top: 23px;
  
 }
 
@@ -37,10 +35,8 @@ ul{
     list-style-type: none;
     gap: 25px;
     display: flex;
-    justify-content: flex-end;
-    margin: 0;
     margin-bottom: 100px;
-    
+    margin-top: 23px;
 }
 
 h1{
@@ -48,34 +44,43 @@ h1{
     font-weight: 800;
     color: #F9FAF8;
     display: flex;
+    margin: 0;
+    margin-top: 40px;
+    
 }
 
-p, ul{
+.main, ul{
     font-size: 18px;
     color: #E5e7eb;
 }
 
-button{
+.button{
     background-color: #3882F6;
     color: white;
-    max-width: 100px;
+    max-width: 130px;
     border-radius: 12px;
     font-weight: bold;
     font-size: 20px;
-    
-    
+    margin-top: 10px;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .container{
     display: flex;
-    gap: 60px;
+    gap: 200px;
 }
 
 .main{
     width: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
   width: 522px;
   height: 240px;
-  margin-top: 35px;
+  padding-top: 13px;
 }
