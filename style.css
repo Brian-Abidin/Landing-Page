@@ -1,25 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
     font-family: Roboto, sans-serif;
 }
 
 
 #wrapper {
-    background-color: #1f2937;
-    margin-left: auto;
-    margin-right: auto;
     height: 550px;
     width: fit-content;
+
 }
 .header{
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 375px;
-    flex-wrap: wrap;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .hero{
@@ -28,7 +26,6 @@ body {
     font-weight: 800;
     margin-bottom: 100px;
     margin-top: 23px;
- 
 }
 
 ul{
@@ -38,6 +35,7 @@ ul{
     margin-bottom: 100px;
     margin-top: 23px;
     padding-right: 360px;
+    
 }
 
 h1{
@@ -50,10 +48,13 @@ h1{
     
 }
 
-.main, ul{
+.main, a{
     font-size: 18px;
     color: #E5e7eb;
 }
+a {
+    text-decoration: none;
+  }
 
 .button{
     background-color: #3882F6;
@@ -87,9 +88,7 @@ img{
 .content{
     background-color: white;
     height: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .box{
@@ -100,8 +99,6 @@ img{
     margin: 16px;
     height: 180px;
     width: 180px;
-    
-   
 }
 
 .title{
@@ -111,23 +108,22 @@ img{
     text-align: center;
     color: #1f2937;
     padding-top: 50px;
-    
 }
 
 .container2{
     display: flex;
     text-align: center;
     justify-content: center;
-    
+    align-items: center;
     gap: 100px;
 }
 
 .info{
     max-width: 200px;
-    align-items: center;
+    
 }
 
 .text{
     font-size: 18px;
- 
+    text-align: center;
 }
