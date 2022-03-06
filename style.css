@@ -91,7 +91,7 @@ img{
 
 }
 
-.box{
+.box_info{
     border: 5px solid #3882F6;
     border-radius: 16px;
     margin-bottom: 10px;
@@ -135,7 +135,7 @@ img{
     
 }
 
-.quote, .author{
+.quote{
     font-size: 36px;
     font-style: italic;
 }
@@ -144,8 +144,57 @@ img{
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    font-size: 28px;
+    font-style: italic;
 }
 
 .container_quote{
     max-width: 830px;
+}
+
+.content_call{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card_call{
+    width: 830px;
+    border: 1px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 280px;
+    padding: 40px 100px;
+}
+.left_call{
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+}
+
+.text_call, .header_call{
+    color: white;
+}
+
+.header_call{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button_call{
+    background-color: #3882F6;
+    border-radius: 16px;
+    border: 2px solid #E5e7eb;
+    color: #E5e7eb;
+    margin: 0;
+    font-weight: 800;
+    padding: 0 25px;
+
+    
 }
