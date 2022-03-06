@@ -192,9 +192,7 @@ img{
     border-radius: 16px;
     border: 2px solid #E5e7eb;
     color: #E5e7eb;
-    margin: 0;
     font-weight: 800;
-    padding: 0 25px;
-
-    
+    padding: 0px 25px;
+    margin: 0;
 }
