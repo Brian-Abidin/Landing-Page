@@ -196,3 +196,12 @@ img{
     padding: 0px 25px;
     margin: 0;
 }
+
+.footer{
+    height: 85px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
