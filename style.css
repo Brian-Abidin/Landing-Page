@@ -95,10 +95,9 @@ img{
     border: 5px solid #3882F6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 16px;
-    padding: 16px;
-    margin: 16px;
-    height: 180px;
-    width: 180px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .title{
@@ -116,14 +115,9 @@ img{
     justify-content: center;
     align-items: center;
     gap: 100px;
-}
-
-.info{
-    max-width: 200px;
     
 }
 
-.text{
-    font-size: 18px;
-    text-align: center;
+.info{
+    max-width: 150px;
 }
