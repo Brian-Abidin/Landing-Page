@@ -4,14 +4,14 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-
 #wrapper {
     height: 550px;
     width: fit-content;
 
 }
+
 .header{
-    background-color: #1f2937;
+    background-color: #6F8FAF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 
 .hero{
     font-size: 24px;
-    color: #F9FAF8;
+    color: black;
     font-weight: 800;
     margin-bottom: 100px;
     margin-top: 23px;
@@ -41,7 +41,7 @@ ul{
 h1{
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: black;
     display: flex;
     margin: 0;
     margin-top: 40px;
@@ -50,21 +50,22 @@ h1{
 
 .main, a{
     font-size: 18px;
-    color: #E5e7eb;
+    color: black;
 }
-a {
+
+a{
     text-decoration: none;
-  }
+}
 
 .button{
-    background-color: #3882F6;
-    color: white;
+    background-color: #AFE1AF;
+    color: black;
     max-width: 150px;
+    border: 2px solid white;
     border-radius: 12px;
     font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
-    border: none;
     padding: 10px 5px;
 }
 
@@ -80,9 +81,10 @@ a {
 }
 
 img{
-  width: 522px;
-  height: 240px;
+  max-width: 900px;
+  max-height: 350px;
   padding-top: 13px;
+  border-radius: 24px;
 }
 
 .content_info{
@@ -92,7 +94,7 @@ img{
 }
 
 .box_info{
-    border: 5px solid #3882F6;
+    border: 0px solid #A7c7E7;
     border-radius: 16px;
     margin-bottom: 10px;
     height: 150px;
@@ -120,12 +122,8 @@ img{
     max-width: 150px;
 }
 
-.text{
-    padding-left: 6px;
-}
-
 .content_quote{
-    background-color: #E5e7eb;
+    background-color: #A7c7E7;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -163,14 +161,12 @@ img{
 
 .card_call{
     width: 830px;
-    border: 1px solid #3882F6;
-    background-color: #3882F6;
-    border-radius: 4px;
-    padding: 16px;
-    margin: 16px;
-    display: flex;
-    gap: 280px;
+    background-color: #A7c7E7;
+    border-radius: 6px;
     padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .left_call{
    display: flex;
@@ -179,7 +175,7 @@ img{
 }
 
 .text_call, .header_call{
-    color: white;
+    color: black;
 }
 
 .header_call{
@@ -188,10 +184,10 @@ img{
 }
 
 .button_call{
-    background-color: #3882F6;
+    background-color: #AFE1AF;
     border-radius: 16px;
     border: 2px solid #E5e7eb;
-    color: #E5e7eb;
+    color: black;
     font-weight: 800;
     padding: 0px 25px;
     margin: 0;
@@ -199,7 +195,7 @@ img{
 
 .footer{
     height: 85px;
-    background-color: #1f2937;
+    background-color: #6F8FAF;
     display: flex;
     justify-content: center;
     align-items: center;
